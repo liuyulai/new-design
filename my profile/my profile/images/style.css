@@ -1,0 +1,59 @@
+*Colors and font *
+body{
+   background-color: rgb(230, 230, 230);
+   color: #575F7D;
+   font-family: 'Lora', serif;
+   font-size:20px;
+   font-weight : lighter;
+}
+ h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+ 	color: #69B380;
+ 	font-size: 36px;
+ 	font-weight: 900;
+ }
+h2{
+ 	color: #6B72E1;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+ 	font-weight: 500;
+ }
+ a{
+ 	font-family: 'Roboto', sans-serif;
+ 	text-decoration: none;
+ 	color: yellow;
+ 	font-weight: 600;
+      font-size:16px;
+ }
+ a{
+  text-decoration: none;
+  color: :#6B72E1;
+  font-weight: 500
+ }
+ a: hover {   
+    color: black;
+ }
+
+ div{
+   background: white;  /* White background */
+   padding: 30px;  /* Internal space */
+   border-radius: 4px solid black;  /* Small radius */
+   box-shadow: 0 15px 34px rgba(50,50,93,.1); /* Stripe shadow */
+ }
+
+ * Custom design with class*
+    .container {
+    	width:500px;
+    	margin:45px auto;
+    }
+
+    .box-white {
+    	background color: white;
+    	padding: 30px;
+    	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+    	border-radius: 4px;
+    	margin: 30px 0px;
+    	text-align: center;
+    }
